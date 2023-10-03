@@ -1,0 +1,73 @@
+/* ReminderForm.css */
+
+.reminder-form {
+    width: 400px;
+    height: 550px;
+    margin: 50px 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .reminder-sidebar {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #333; /* Sidebar background color */
+    color: #fff; /* Text color in the sidebar */
+    padding: 20px;
+    height: 100vh; /* Add some padding to the sidebar */
+  }
+
+  .reminder-h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .reminder-title-label,
+   .reminder-date-label,
+   .reminder-time-label{
+    display: block;
+    font-weight: bold;
+   
+  }
+  
+  .reminder-title-input,
+  .reminder-date-input,
+  .reminder-time-input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .reminder-submait-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 600px) {
+    .reminder-form {
+      max-width: 100%;
+    }
+  
+    .reminder-title-label,
+   .reminder-date-label,
+   .reminder-time-label {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,84 @@
+/* Style the outer container */
+.lecture-schedule {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    width: 100%;
+    padding-top: 100px;
+  }
+  
+  /* Style the heading */
+  .lecture-schedule h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  .status-btns{
+gap: 2rem;
+  }
+
+ .reminder-sidebar{
+  width: 250px; /* Set the width of the sidebar */
+    background-color: #333; /* Sidebar background color */
+    color: #fff; /* Text color in the sidebar */
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 20px;
+ }
+  /* Style the table */
+  .lecture-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style table headers */
+  .lecture-schedule th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Style table data rows */
+  .lecture-schedule td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Alternate row background color for better readability */
+  .lecture-schedule tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect for table rows */
+  .lecture-schedule tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    table {
+      font-size: 14px; /* Reduce font size for smaller screens */
+    }
+  
+    /* Hide table headers on small screens */
+    th {
+      display: none;
+    }
+  
+    /* Style table rows for small screens */
+    tr {
+      border-bottom: 1px solid #ccc;
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    /* Style table cells for small screens */
+    td {
+      display: block;
+      text-align: right; /* Align cell text to the right */
+      padding: 5px;
+    }
+  }

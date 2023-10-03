@@ -1,0 +1,70 @@
+/* Sidebar.css */
+.sidebar {
+  width: 230px;
+  background-color: #333;
+  color: #fff;
+  padding-top: 120px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+  position: fixed;
+
+}
+.list-unstyled{
+  width: 50%;
+}
+.sidebar-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-title:hover {
+  background-color: #444;
+}
+
+.toggle-btn {
+  font-size: 20px;
+  transition: transform 0.2s ease;
+}
+
+.sidebar-item.open .toggle-btn {
+  transform: rotate(180deg);
+}
+
+.submenu {
+  display: none;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.submenu.open {
+  display: block;
+  width: 100%;
+}
+
+.submenu-item {
+  margin-left: -10px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.submenu-item:hover {
+  background-color: #444;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+margin-left: 50px;
+}

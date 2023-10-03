@@ -1,0 +1,139 @@
+/* .main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110.5vh;
+    background-image: url('./image/main.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1; 
+  } */
+.display-flex{
+  display: flex;
+}
+.display-flex-1{
+  margin: 20px auto;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4);
+  width: 40%;
+
+}
+
+.main{
+  padding-bottom: 0;
+}
+  .main-h2{
+    color: black;
+    z-index: -99;
+    width: 100%;
+    padding-top: 150px;
+  }
+
+  /* Dashboard Component Styles */
+
+/* .dashboard {
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.dashboard-section {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-info {
+
+margin: 10px auto;
+}
+
+.dashboard-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dashboard-info p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.dashboard-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}
+
+/* dashboard-info-section.css */
+
+.dashboard-info-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-info h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+}
+.dashboard-info-section p {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.info-item {
+  margin-left: 25%;
+}
+
+.info-item h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: rgb(255, 255, 255);
+}
+
+.info-item p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.dashboard-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}
+
+/* You can add more specific styling if needed */

@@ -1,0 +1,46 @@
+/* Dashboard.css */
+
+/* Overall dashboard container */
+.dashboard {
+    display: flex;
+    height: 120vh;
+    position: absolute;
+    width: 100%;
+    background-image: url('../image/main.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1; 
+  }
+  
+  /* Sidebar */
+  .sideBar {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #333; /* Sidebar background color */
+    color: #fff; /* Text color in the sidebar */
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 20px;
+    position: sticky;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 3; /* Adjust the width as needed */
+    padding-top: 110px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .dashboard {
+      flex-direction: column;
+    }
+  
+    .sidebar, .main-content {
+      flex: 1; /* Take up full width when stacked */
+    }
+  }
